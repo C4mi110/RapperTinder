@@ -71,10 +71,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Censor.cs" />
     <Compile Include="Program.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rapper.cs" />
+    <Compile Include="RapperTinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Song.cs" />
+    <Compile Include="SwearStats.cs" />
     <Compile Include="WebCache.cs" />
   </ItemGroup>
   <ItemGroup>
